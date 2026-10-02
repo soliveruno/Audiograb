@@ -1,0 +1,27 @@
+name: AudioGrab
+options:
+  bundleIdPrefix: com.junki3lab
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  AudioGrab:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    scheme: {}
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: AudioGrab
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        NSPhotoLibraryUsageDescription: AudioGrab needs access to pick videos to convert.
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.junki3lab.audiograb
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
