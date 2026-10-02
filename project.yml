@@ -20,6 +20,9 @@ targets:
         LSSupportsOpeningDocumentsInPlace: true
         NSPhotoLibraryUsageDescription: AudioGrab needs access to pick videos to convert.
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [audio]
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.junki3lab.audiograb

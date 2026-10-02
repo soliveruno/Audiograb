@@ -1,14 +1,18 @@
 # AudioGrab
 
-Turns a video you already have into an audio file (.m4a) and sends it to SimplePlayer.
+Search free music, preview it, download it, send it to SimplePlayer.
 
-1. Tap **Photos** or **Files** and pick a video (e.g. a screen recording, a clip you filmed,
-   or your own upload downloaded from YouTube Studio).
-2. Tap **Convert to audio**.
-3. Tap **Send to SimplePlayer** and choose SimplePlayer in the share sheet
-   (if it isn't in the app row, tap **More** and enable it).
+**Search tab:** type a song, artist or genre and hit Search. Results come from
+Openverse (openly licensed audio gathered from Jamendo, Freesound, Wikimedia and more)
+and the Internet Archive's free music collections, searched at the same time.
+- ▶ preview (tap again to stop)
+- ↓ download
+- share icon → choose **SimplePlayer**
 
-Converted files are also kept in Files → On My iPhone → AudioGrab.
+**Library tab:** everything you've downloaded or converted. Tap one to send it again,
+swipe to delete.
 
-Build & install exactly like SimplePlayer: push to a GitHub repo (project.yml at the top level,
-plus .github/workflows/build.yml), download the AudioGrab-ipa artifact from Actions, sideload it.
+**Convert tab:** turn a video already on your phone into audio.
+
+Build & install like SimplePlayer: push to GitHub (project.yml at top level plus
+.github/workflows/build.yml), grab the AudioGrab-ipa artifact from Actions, sideload it.
